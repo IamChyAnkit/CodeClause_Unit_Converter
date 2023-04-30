@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: opx;
+}
+
+.main{
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+.box{
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+}
+
+#length:target #length{
+    width: 100%;
+    height: auto;
+    
+}
+#length:target .main{
+    display:block;
+}
+
+#temperature:target #temperature{
+    width:100%;
+    height:auto;
+}
+#temperature:target .main{
+    display: block;
+}
+
+#weight:target #weight{
+    width:100%;
+    height: auto;
+}
+#weight:target .main{
+    display: block;
+
+}
+
+a{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 7px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(222,214,214);
+    width: 30%;
+    height: 35px;
+}
+a:hover{
+    background-color:  rgb(158,153,153);
+
+}
+
+p{
+    margin-top: 20px;
+    width: 300px;
+    height: 35px;
+    padding-top: 7px;
+    font-size: 20px;
+    text-align: center;
+    border: solid 2px;
+    font-weight: bold;
+}
+.demo{
+    float: left;
+
+}
+.inc{
+    float: right;
+}
+
+
+select{
+    box-sizing: border-box;
+    display: inline-block;
+    margin-top: 20px;
+    width: 300px;
+    height: 35px;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: rgb(36, 98, 245);
+    box-shadow: 1px 1px 14px rgba(71,64, 64, 0.5);
+
+}
+span{
+    display: inline-block;
+    margin-top: 20px;
+    padding-top: 7PX ;
+    width: 300px;
+    height: 35px;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: rgb(36, 98, 245);
+    box-shadow: 1px 1px 14px rgba(71,64, 64, 0.5);
+}
