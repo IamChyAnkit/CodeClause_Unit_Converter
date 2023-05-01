@@ -4,33 +4,34 @@ function getlen(){
     
     let getval = document.getElementById("get").value;
     let setval = document.getElementById("set").value;
-    let x  = document.getElementById("demo");
-    let y  = document.getAnimations("inc");
+    let x  = document.getElementById("dem");
+    let y  = document.getElementById("in");
     if (getval === setval){
+        y.innerText = x.innerText
         alert('if you convert ${getval} into ${setval} you will get same answer');
-
+        
     }
-    if (getval==="meter"&&setval==="foot"){
+    if (getval==="m"&&setval==="f"){
         
         y.innerText = x.innerText * 3.28084;
     }
-    else if (getval==="meter"&&setval==="cm"){
+    else if (getval==="m"&&setval==="c"){
        
         y.innerText = x.innerText * 100;
     }
-    else if (getval==="foot"&&setval==="meter"){
+    else if (getval==="f"&&setval==="m"){
         y.innerText = x.innerText /3.281;
     }
-    else if (getval==="foot"&&setval==="cm"){
+    else if (getval==="f"&&setval==="c"){
         y.innerText = x.innerText * 30.48;
     }
-    else if (getval==="cm"&&setval==="foot"){
+    else if (getval==="c"&&setval==="f"){
         y.innerText = x.innerText /30.48;
     }
-    else if (getval==="cm"&&setval==="meter"){
+    else if (getval==="c"&&setval==="m"){
         y.innerText = x.innerText / 100;
     }
-    else if (getval==="meter"&&setval==="cm"){
+    else if (getval==="m"&&setval==="c"){
         y.innerText = x.innerText * 100;
     }
     
